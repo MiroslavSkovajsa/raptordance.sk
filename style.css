@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: darkseagreen;
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #696969;
+    text-align: center;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type="text"], .box input[type="email"], textarea {
+    border: 2px solid #582525;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 10px;
+    width: 200px;
+    color: aliceblue;
+    border-radius: 24px;
+}
+
+
